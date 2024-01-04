@@ -1,0 +1,58 @@
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 9px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.logo {
+    width: 160px;
+    height: 59px;
+}
+
+.menu-logo {
+    width: 43px;
+    height: 57px;
+}
+
+.battery-logo {
+    height: 60px;
+}
+
+.fill-color {
+    width: 35px;
+    left: calc(100% - 59px);
+    position: absolute;
+    opacity: 0.8;
+}
+
+.map-logo {
+    display: flex;
+}
+
+.charge-logo {
+    float: right;
+    z-index: 1;
+}
+
+.charge-logo {
+    width: 41px;
+    height: 42px;
+}
+
+.map-overlay {
+    position: absolute;
+    top: calc(100% - 100px);
+    left: calc(100% - 80px);
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background: #3CCF80;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}

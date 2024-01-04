@@ -1,0 +1,154 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+
+}
+
+.login-card {
+    width: 309px;
+    height: 370px;
+    background:  rgba(255, 248, 208, 0.21);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 271px;
+    height: 45px;
+    background: rgba(117, 117, 117, 0.1);
+    border: none;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.heading {
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: unset;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.signup {
+
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+font-size: 13px;
+
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: space-around;
+
+color: rgba(0, 0, 0, 0.6);
+margin-bottom: 30px;
+margin-top: 0px;
+}
+
+.blueclr {
+    color: rgba(0, 41, 255, 0.79);
+}
+
+.remember-me {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.forgotpass {
+width: 130px;
+height: 17px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+margin: unset;
+color: #4D68F3;
+}
+.check-box {
+    display: flex;
+    justify-content: left;
+}
+
+.check-box input {
+    width: 14px;
+    height: 14px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    margin: unset;
+}
+.check-box h4 {
+    width: 106px;
+height: 16px;
+left: 77px;
+top: 428px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.48);
+margin: unset;
+margin-left: 5px;
+}
+
+button {
+    width: 271px;
+height: 45px;
+left: 52px;
+top: 472px;
+
+background: #3CCF80;
+border: unset;
+border-radius: 5px;
+}
+
+button p {
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+
+color: #FFFFFF;
+}
+
+.login img {
+    width: 140px;
+    height: 50px;
+    margin-bottom: 70px;
+}
+
+.terms {
+width: 230px;
+height: 32px;
+margin: unset;
+margin-bottom: 2px;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+align-items: center;
+text-align: center;
+
+color: rgba(0, 0, 0, 0.6);
+}
